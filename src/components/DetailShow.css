@@ -4,9 +4,15 @@
     align-items: center;
     box-shadow: -7px 10px 31px 0px rgba(0,0,0,0.53);
     width: 25rem;
-    padding: 5rem;
+    padding: 3rem;
     margin: auto;
     background-color:antiquewhite;
+}
+
+#title{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: brown;
+    /* font-weight: normal; */
 }
 
 #summary{

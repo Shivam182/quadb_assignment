@@ -40,7 +40,9 @@ const DetailShow = () => {
     <Fragment>
       {" "}
       <div className="show-box">
+        <h1 id="title">Summary & Booking</h1>
         <div className="show-det">
+          
           <div className="show-image">
             <img
               src={
@@ -60,7 +62,8 @@ const DetailShow = () => {
           Book
         </button>
       </div>
-      <BookingForm show={show} />
+      {myItem[0] && myItem.map(item=>(<BookingForm show={show} name={myItem[0].show.name} />))}
+      
     </Fragment>
   );
 };
