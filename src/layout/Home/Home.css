@@ -6,7 +6,7 @@
 }
 
 .home-header{
-    background-color: red;
+    /* background-color: red; */
     width: 100%;
     text-align: center;
     
@@ -16,7 +16,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(14, 14, 116);
+    /* background-color: rgb(14, 14, 116); */
     width: 100%;
 }
 
@@ -25,7 +25,7 @@
     grid-template-columns: 1fr 1fr 1fr ;
     column-gap: 20px;
     row-gap: 20px;    
-    border: 2px solid black;
+    /* border: 2px solid black; */
     padding: 5px;
 }
 
@@ -44,7 +44,7 @@
 #underline{
     text-align: center;
     border-bottom: 5px solid;
-    border-color: orange;
+    /* border-color: orange; */
     border-radius: 4px;
     width: 9rem;  
     margin: auto;

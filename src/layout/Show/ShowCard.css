@@ -1,12 +1,13 @@
 .show-card{
     height: 200px;
     width: 350px;
-    background-color: yellow;
+    background-color: rgb(229, 229, 185);
     display: flex;
     flex-direction: row;
     align-items: center;
     border-radius: 1rem;
     transition: all 0.2s;
+    padding: 5px;
 }
 
 .show-card:hover{
@@ -15,19 +16,80 @@
 }
 
 .show-img{
-    background-color: aliceblue;
-    height: 120px;
-    width: 120px;
-    border-radius: 100%;
+    /* border: 2px solid; */
     margin-left: 9px;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100%;
+    width: 40%;
+}
+
+#img{
+      background-color: aliceblue;
+    height: 120px;
+    width: 120px;
+    border-radius: 100%;
 }
 
 .show-details{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+    /* border: 2px solid; */
+    width: 60%;
+    height: 100%;
+    
+}
+
+.show-details > h4 {
+    margin-bottom: 8px;
+    margin-top: 0;
+}
+
+#show-name{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-top: 13px;
+}
+
+.genre{
+    margin: auto;
+    padding: 1px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: normal;
+    background-color: antiquewhite;
+    border: transparent;
+    border-radius: 0.1rem;
+}
+
+#lang{
+    font-weight: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+#runtime{
+    margin-bottom: 10px;
+    font-weight: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+#more-btn{
+    margin-top: 20px;
+    width: 3rem;
+    padding: 5px;
+    border: transparent;
+    background-color: chartreuse;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 0.3rem;
+    font-weight: 550;
+    margin: auto;
+}
+
+#more-btn:hover{
+    background-color: goldenrod;
+    color: #fff;
 }
