@@ -1,0 +1,33 @@
+.show-card{
+    height: 200px;
+    width: 350px;
+    background-color: yellow;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 1rem;
+    transition: all 0.2s;
+}
+
+.show-card:hover{
+    transform: translateY(-5px);
+    box-shadow: -7px 10px 31px 0px rgba(0,0,0,0.53);
+}
+
+.show-img{
+    background-color: aliceblue;
+    height: 120px;
+    width: 120px;
+    border-radius: 100%;
+    margin-left: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.show-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

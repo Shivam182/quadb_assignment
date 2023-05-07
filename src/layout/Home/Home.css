@@ -1,0 +1,51 @@
+.home-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.home-header{
+    background-color: red;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.home-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(14, 14, 116);
+    width: 100%;
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    column-gap: 20px;
+    row-gap: 20px;    
+    border: 2px solid black;
+    padding: 5px;
+}
+
+#title-text{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(12, 36, 91);
+    margin-bottom: 0.5rem;
+}
+
+#home-title{
+    
+}
+
+
+
+#underline{
+    text-align: center;
+    border-bottom: 5px solid;
+    border-color: orange;
+    border-radius: 4px;
+    width: 9rem;  
+    margin: auto;
+}
